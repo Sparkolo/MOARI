@@ -1,0 +1,65 @@
+{
+    "PPOVegan": {
+        "checkpoints": [
+            {
+                "steps": 29849612,
+                "file_path": "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29849612.onnx",
+                "reward": 14.769998550415039,
+                "creation_time": 1643162717.7571704,
+                "auxillary_file_paths": [
+                    "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29849612.pt"
+                ]
+            },
+            {
+                "steps": 29899451,
+                "file_path": "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29899451.onnx",
+                "reward": 10.008241891860962,
+                "creation_time": 1643162779.2621555,
+                "auxillary_file_paths": [
+                    "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29899451.pt"
+                ]
+            },
+            {
+                "steps": 29949321,
+                "file_path": "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29949321.onnx",
+                "reward": 7.826881251551888,
+                "creation_time": 1643162840.4355004,
+                "auxillary_file_paths": [
+                    "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29949321.pt"
+                ]
+            },
+            {
+                "steps": 29999558,
+                "file_path": "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29999558.onnx",
+                "reward": 11.746327242851258,
+                "creation_time": 1643162907.9959424,
+                "auxillary_file_paths": [
+                    "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-29999558.pt"
+                ]
+            },
+            {
+                "steps": 30001159,
+                "file_path": "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-30001159.onnx",
+                "reward": 12.158362242910597,
+                "creation_time": 1643162908.4026911,
+                "auxillary_file_paths": [
+                    "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-30001159.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 30001159,
+            "file_path": "results\\PPOVeganFinal\\PPOVegan.onnx",
+            "reward": 12.158362242910597,
+            "creation_time": 1643162908.4026911,
+            "auxillary_file_paths": [
+                "results\\PPOVeganFinal\\PPOVegan\\PPOVegan-30001159.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

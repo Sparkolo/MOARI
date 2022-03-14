@@ -1,0 +1,125 @@
+{
+    "POCACarnivore": {
+        "checkpoints": [
+            {
+                "steps": 9899463,
+                "file_path": "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9899463.onnx",
+                "reward": 7.462461769580841,
+                "creation_time": 1643432670.467468,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9899463.pt"
+                ]
+            },
+            {
+                "steps": 9949863,
+                "file_path": "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9949863.onnx",
+                "reward": 7.745940601124483,
+                "creation_time": 1643432801.782468,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9949863.pt"
+                ]
+            },
+            {
+                "steps": 9999341,
+                "file_path": "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9999341.onnx",
+                "reward": 7.202395324707031,
+                "creation_time": 1643432928.7092812,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-9999341.pt"
+                ]
+            },
+            {
+                "steps": 10049600,
+                "file_path": "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-10049600.onnx",
+                "reward": 7.120065709178367,
+                "creation_time": 1643433037.7777824,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-10049600.pt"
+                ]
+            },
+            {
+                "steps": 10052800,
+                "file_path": "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-10052800.onnx",
+                "reward": 7.171763911042162,
+                "creation_time": 1643433325.0975828,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-10052800.pt"
+                ]
+            }
+        ],
+        "elo": 1006.6149608240933,
+        "final_checkpoint": {
+            "steps": 10052800,
+            "file_path": "results\\POCAFinalShorter\\POCACarnivore.onnx",
+            "reward": 7.171763911042162,
+            "creation_time": 1643433325.0975828,
+            "auxillary_file_paths": [
+                "results\\POCAFinalShorter\\POCACarnivore\\POCACarnivore-10052800.pt"
+            ]
+        }
+    },
+    "POCAVegan": {
+        "checkpoints": [
+            {
+                "steps": 9849602,
+                "file_path": "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9849602.onnx",
+                "reward": 11.248337727326613,
+                "creation_time": 1643432529.3477576,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9849602.pt"
+                ]
+            },
+            {
+                "steps": 9899294,
+                "file_path": "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9899294.onnx",
+                "reward": 8.536313670022148,
+                "creation_time": 1643433136.9257238,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9899294.pt"
+                ]
+            },
+            {
+                "steps": 9949813,
+                "file_path": "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9949813.onnx",
+                "reward": 8.799634761670056,
+                "creation_time": 1643433230.6307013,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9949813.pt"
+                ]
+            },
+            {
+                "steps": 9999557,
+                "file_path": "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9999557.onnx",
+                "reward": 8.820792837937672,
+                "creation_time": 1643433324.3475637,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-9999557.pt"
+                ]
+            },
+            {
+                "steps": 10003558,
+                "file_path": "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-10003558.onnx",
+                "reward": 9.044499455179487,
+                "creation_time": 1643433325.374628,
+                "auxillary_file_paths": [
+                    "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-10003558.pt"
+                ]
+            }
+        ],
+        "elo": 1155.9535803364647,
+        "final_checkpoint": {
+            "steps": 10003558,
+            "file_path": "results\\POCAFinalShorter\\POCAVegan.onnx",
+            "reward": 9.044499455179487,
+            "creation_time": 1643433325.374628,
+            "auxillary_file_paths": [
+                "results\\POCAFinalShorter\\POCAVegan\\POCAVegan-10003558.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

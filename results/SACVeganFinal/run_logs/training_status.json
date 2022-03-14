@@ -1,0 +1,65 @@
+{
+    "SACVegan": {
+        "checkpoints": [
+            {
+                "steps": 2849803,
+                "file_path": "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2849803.onnx",
+                "reward": null,
+                "creation_time": 1643337589.6241572,
+                "auxillary_file_paths": [
+                    "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2849803.pt"
+                ]
+            },
+            {
+                "steps": 2899540,
+                "file_path": "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2899540.onnx",
+                "reward": 12.395399570465088,
+                "creation_time": 1643338305.0344796,
+                "auxillary_file_paths": [
+                    "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2899540.pt"
+                ]
+            },
+            {
+                "steps": 2949627,
+                "file_path": "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2949627.onnx",
+                "reward": 14.65310001373291,
+                "creation_time": 1643339065.3910947,
+                "auxillary_file_paths": [
+                    "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2949627.pt"
+                ]
+            },
+            {
+                "steps": 2999441,
+                "file_path": "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2999441.onnx",
+                "reward": 13.77309799194336,
+                "creation_time": 1643339812.9943697,
+                "auxillary_file_paths": [
+                    "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-2999441.pt"
+                ]
+            },
+            {
+                "steps": 3001842,
+                "file_path": "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-3001842.onnx",
+                "reward": 13.406399011611938,
+                "creation_time": 1643339813.3379922,
+                "auxillary_file_paths": [
+                    "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-3001842.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3001842,
+            "file_path": "results\\SACVeganFinalShorter\\SACVegan.onnx",
+            "reward": 13.406399011611938,
+            "creation_time": 1643339813.3379922,
+            "auxillary_file_paths": [
+                "results\\SACVeganFinalShorter\\SACVegan\\SACVegan-3001842.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
