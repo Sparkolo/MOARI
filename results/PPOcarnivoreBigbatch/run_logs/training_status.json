@@ -1,0 +1,65 @@
+{
+    "PPOCarnivore": {
+        "checkpoints": [
+            {
+                "steps": 14849225,
+                "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14849225.onnx",
+                "reward": 9.123593419790268,
+                "creation_time": 1642461241.4565687,
+                "auxillary_file_paths": [
+                    "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14849225.pt"
+                ]
+            },
+            {
+                "steps": 14899625,
+                "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14899625.onnx",
+                "reward": 9.10588490090719,
+                "creation_time": 1642461297.7749453,
+                "auxillary_file_paths": [
+                    "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14899625.pt"
+                ]
+            },
+            {
+                "steps": 14949225,
+                "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14949225.onnx",
+                "reward": 8.75339344569615,
+                "creation_time": 1642461361.4599,
+                "auxillary_file_paths": [
+                    "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14949225.pt"
+                ]
+            },
+            {
+                "steps": 14999625,
+                "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14999625.onnx",
+                "reward": 8.900199174880981,
+                "creation_time": 1642461431.2911038,
+                "auxillary_file_paths": [
+                    "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-14999625.pt"
+                ]
+            },
+            {
+                "steps": 15001225,
+                "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-15001225.onnx",
+                "reward": 9.090232372283936,
+                "creation_time": 1642461431.4870772,
+                "auxillary_file_paths": [
+                    "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-15001225.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15001225,
+            "file_path": "results\\PPOcarnivoreBigbatch\\PPOCarnivore.onnx",
+            "reward": 9.090232372283936,
+            "creation_time": 1642461431.4870772,
+            "auxillary_file_paths": [
+                "results\\PPOcarnivoreBigbatch\\PPOCarnivore\\PPOCarnivore-15001225.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
