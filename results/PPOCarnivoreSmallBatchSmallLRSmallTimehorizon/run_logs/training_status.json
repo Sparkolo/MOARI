@@ -1,0 +1,65 @@
+{
+    "PPOCarnivore": {
+        "checkpoints": [
+            {
+                "steps": 14849652,
+                "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14849652.onnx",
+                "reward": 7.953249355157216,
+                "creation_time": 1643041977.082763,
+                "auxillary_file_paths": [
+                    "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14849652.pt"
+                ]
+            },
+            {
+                "steps": 14899828,
+                "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14899828.onnx",
+                "reward": 7.825874179601669,
+                "creation_time": 1643042052.7367773,
+                "auxillary_file_paths": [
+                    "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14899828.pt"
+                ]
+            },
+            {
+                "steps": 14949844,
+                "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14949844.onnx",
+                "reward": 7.375925245492355,
+                "creation_time": 1643042121.68549,
+                "auxillary_file_paths": [
+                    "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14949844.pt"
+                ]
+            },
+            {
+                "steps": 14999668,
+                "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14999668.onnx",
+                "reward": null,
+                "creation_time": 1643042200.4296823,
+                "auxillary_file_paths": [
+                    "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-14999668.pt"
+                ]
+            },
+            {
+                "steps": 15001204,
+                "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-15001204.onnx",
+                "reward": null,
+                "creation_time": 1643042200.7179012,
+                "auxillary_file_paths": [
+                    "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-15001204.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15001204,
+            "file_path": "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore.onnx",
+            "reward": null,
+            "creation_time": 1643042200.7179012,
+            "auxillary_file_paths": [
+                "results\\PPOCarnivoreSmallBatchSmallLRSmallTimehorizon\\PPOCarnivore\\PPOCarnivore-15001204.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
