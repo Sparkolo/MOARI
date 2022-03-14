@@ -1,0 +1,65 @@
+{
+    "SACCarnivore": {
+        "checkpoints": [
+            {
+                "steps": 14849392,
+                "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14849392.onnx",
+                "reward": null,
+                "creation_time": 1642748130.6923695,
+                "auxillary_file_paths": [
+                    "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14849392.pt"
+                ]
+            },
+            {
+                "steps": 14899792,
+                "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14899792.onnx",
+                "reward": null,
+                "creation_time": 1642749170.466454,
+                "auxillary_file_paths": [
+                    "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14899792.pt"
+                ]
+            },
+            {
+                "steps": 14949564,
+                "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14949564.onnx",
+                "reward": null,
+                "creation_time": 1642750195.2920074,
+                "auxillary_file_paths": [
+                    "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14949564.pt"
+                ]
+            },
+            {
+                "steps": 14999958,
+                "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14999958.onnx",
+                "reward": null,
+                "creation_time": 1642751237.3887904,
+                "auxillary_file_paths": [
+                    "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-14999958.pt"
+                ]
+            },
+            {
+                "steps": 15002358,
+                "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-15002358.onnx",
+                "reward": 10.106966654459635,
+                "creation_time": 1642751237.6845143,
+                "auxillary_file_paths": [
+                    "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-15002358.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15002358,
+            "file_path": "results\\SACcarnivoreBigbatch\\SACCarnivore.onnx",
+            "reward": 10.106966654459635,
+            "creation_time": 1642751237.6845143,
+            "auxillary_file_paths": [
+                "results\\SACcarnivoreBigbatch\\SACCarnivore\\SACCarnivore-15002358.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

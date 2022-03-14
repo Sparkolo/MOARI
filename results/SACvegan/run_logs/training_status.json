@@ -1,0 +1,65 @@
+{
+    "SACVegan": {
+        "checkpoints": [
+            {
+                "steps": 1699755,
+                "file_path": "results\\SACvegan2\\SACVegan\\SACVegan-1699755.onnx",
+                "reward": null,
+                "creation_time": 1639425015.7104926,
+                "auxillary_file_paths": [
+                    "results\\SACvegan2\\SACVegan\\SACVegan-1699755.pt"
+                ]
+            },
+            {
+                "steps": 1749220,
+                "file_path": "results\\SACvegan2\\SACVegan\\SACVegan-1749220.onnx",
+                "reward": null,
+                "creation_time": 1639426009.3614662,
+                "auxillary_file_paths": [
+                    "results\\SACvegan2\\SACVegan\\SACVegan-1749220.pt"
+                ]
+            },
+            {
+                "steps": 1799741,
+                "file_path": "results\\SACvegan2\\SACVegan\\SACVegan-1799741.onnx",
+                "reward": null,
+                "creation_time": 1639427021.456929,
+                "auxillary_file_paths": [
+                    "results\\SACvegan2\\SACVegan\\SACVegan-1799741.pt"
+                ]
+            },
+            {
+                "steps": 1849521,
+                "file_path": "results\\SACvegan2\\SACVegan\\SACVegan-1849521.onnx",
+                "reward": 21.007099151611328,
+                "creation_time": 1639428011.7687566,
+                "auxillary_file_paths": [
+                    "results\\SACvegan2\\SACVegan\\SACVegan-1849521.pt"
+                ]
+            },
+            {
+                "steps": 1865206,
+                "file_path": "results\\SACvegan2\\SACVegan\\SACVegan-1865206.onnx",
+                "reward": null,
+                "creation_time": 1639428344.217963,
+                "auxillary_file_paths": [
+                    "results\\SACvegan2\\SACVegan\\SACVegan-1865206.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1865206,
+            "file_path": "results\\SACvegan2\\SACVegan.onnx",
+            "reward": null,
+            "creation_time": 1639428344.217963,
+            "auxillary_file_paths": [
+                "results\\SACvegan2\\SACVegan\\SACVegan-1865206.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
