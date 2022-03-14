@@ -1,0 +1,567 @@
+{
+    "name": "root",
+    "gauges": {
+        "POCAVegan.Policy.Entropy.mean": {
+            "value": 1.0550211668014526,
+            "min": 1.0550211668014526,
+            "max": 1.425132155418396,
+            "count": 906
+        },
+        "POCAVegan.Policy.Entropy.sum": {
+            "value": 13387.1640625,
+            "min": 1032.72021484375,
+            "max": 470057.125,
+            "count": 906
+        },
+        "POCAVegan.Environment.EpisodeLength.mean": {
+            "value": 1604.8333333333333,
+            "min": 127.0,
+            "max": 8632.0,
+            "count": 890
+        },
+        "POCAVegan.Environment.EpisodeLength.sum": {
+            "value": 9629.0,
+            "min": 127.0,
+            "max": 334167.0,
+            "count": 890
+        },
+        "POCAVegan.Step.mean": {
+            "value": 9199825.0,
+            "min": 9779.0,
+            "max": 9199825.0,
+            "count": 920
+        },
+        "POCAVegan.Step.sum": {
+            "value": 9199825.0,
+            "min": 9779.0,
+            "max": 9199825.0,
+            "count": 920
+        },
+        "POCAVegan.Policy.ExtrinsicBaselineEstimate.mean": {
+            "value": 6.311437606811523,
+            "min": -0.24534308910369873,
+            "max": 6.335283279418945,
+            "count": 920
+        },
+        "POCAVegan.Policy.ExtrinsicBaselineEstimate.sum": {
+            "value": 94.67156219482422,
+            "min": -6.133577346801758,
+            "max": 114.95540618896484,
+            "count": 920
+        },
+        "POCAVegan.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 6.311437606811523,
+            "min": -0.24534308910369873,
+            "max": 6.335283279418945,
+            "count": 920
+        },
+        "POCAVegan.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 94.67156219482422,
+            "min": -6.133577346801758,
+            "max": 114.95540618896484,
+            "count": 920
+        },
+        "POCAVegan.Environment.CumulativeReward.mean": {
+            "value": 107.85478005806605,
+            "min": -5.484348010133814,
+            "max": 384.19325788815814,
+            "count": 894
+        },
+        "POCAVegan.Environment.CumulativeReward.sum": {
+            "value": 647.1286803483963,
+            "min": -148.07739627361298,
+            "max": 1715.627965927124,
+            "count": 894
+        },
+        "POCAVegan.Policy.ExtrinsicReward.mean": {
+            "value": 107.85478005806605,
+            "min": -16.377809500694276,
+            "max": 384.19325788815814,
+            "count": 894
+        },
+        "POCAVegan.Policy.ExtrinsicReward.sum": {
+            "value": 647.1286803483963,
+            "min": -409.4452375173569,
+            "max": 1715.627965927124,
+            "count": 894
+        },
+        "POCAVegan.Self-play.ELO.mean": {
+            "value": 383.24636325830585,
+            "min": 383.24636325830585,
+            "max": 1198.2583704786089,
+            "count": 890
+        },
+        "POCAVegan.Self-play.ELO.sum": {
+            "value": 2299.478179549835,
+            "min": 385.00255796616113,
+            "max": 36246.238949157465,
+            "count": 890
+        },
+        "POCAVegan.Environment.GroupCumulativeReward.mean": {
+            "value": 0.0,
+            "min": -0.20042150020599364,
+            "max": 0.0,
+            "count": 894
+        },
+        "POCAVegan.Environment.GroupCumulativeReward.sum": {
+            "value": 0.0,
+            "min": -1.0021075010299683,
+            "max": 0.0,
+            "count": 894
+        },
+        "POCAVegan.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 920
+        },
+        "POCAVegan.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 920
+        },
+        "POCAVegan.Losses.PolicyLoss.mean": {
+            "value": 0.01959731705331554,
+            "min": 0.00917641851119697,
+            "max": 0.025102635729126632,
+            "count": 421
+        },
+        "POCAVegan.Losses.PolicyLoss.sum": {
+            "value": 0.01959731705331554,
+            "min": 0.00917641851119697,
+            "max": 0.025102635729126632,
+            "count": 421
+        },
+        "POCAVegan.Losses.ValueLoss.mean": {
+            "value": 0.3266250645120939,
+            "min": 0.017379742519309124,
+            "max": 0.539964207013448,
+            "count": 421
+        },
+        "POCAVegan.Losses.ValueLoss.sum": {
+            "value": 0.3266250645120939,
+            "min": 0.017379742519309124,
+            "max": 0.539964207013448,
+            "count": 421
+        },
+        "POCAVegan.Losses.BaselineLoss.mean": {
+            "value": 0.340940264860789,
+            "min": 0.01746215879296263,
+            "max": 0.6587468365828196,
+            "count": 421
+        },
+        "POCAVegan.Losses.BaselineLoss.sum": {
+            "value": 0.340940264860789,
+            "min": 0.01746215879296263,
+            "max": 0.6587468365828196,
+            "count": 421
+        },
+        "POCAVegan.Policy.LearningRate.mean": {
+            "value": 0.0003,
+            "min": 0.0003,
+            "max": 0.0003,
+            "count": 421
+        },
+        "POCAVegan.Policy.LearningRate.sum": {
+            "value": 0.0003,
+            "min": 0.0003,
+            "max": 0.0003,
+            "count": 421
+        },
+        "POCAVegan.Policy.Epsilon.mean": {
+            "value": 0.20000000000000007,
+            "min": 0.19999999999999993,
+            "max": 0.20000000000000007,
+            "count": 421
+        },
+        "POCAVegan.Policy.Epsilon.sum": {
+            "value": 0.20000000000000007,
+            "min": 0.19999999999999993,
+            "max": 0.20000000000000007,
+            "count": 421
+        },
+        "POCAVegan.Policy.Beta.mean": {
+            "value": 0.005000000000000001,
+            "min": 0.005,
+            "max": 0.005000000000000001,
+            "count": 421
+        },
+        "POCAVegan.Policy.Beta.sum": {
+            "value": 0.005000000000000001,
+            "min": 0.005,
+            "max": 0.005000000000000001,
+            "count": 421
+        },
+        "POCACarnivore.Policy.Entropy.mean": {
+            "value": 0.7002274394035339,
+            "min": 0.7002273797988892,
+            "max": 1.4275559186935425,
+            "count": 833
+        },
+        "POCACarnivore.Policy.Entropy.sum": {
+            "value": 8368.41796875,
+            "min": 355.5892333984375,
+            "max": 211805.515625,
+            "count": 833
+        },
+        "POCACarnivore.Environment.EpisodeLength.mean": {
+            "value": 16950.0,
+            "min": 414.69117647058823,
+            "max": 16950.0,
+            "count": 273
+        },
+        "POCACarnivore.Environment.EpisodeLength.sum": {
+            "value": 16950.0,
+            "min": 463.0,
+            "max": 144246.0,
+            "count": 273
+        },
+        "POCACarnivore.Self-play.ELO.mean": {
+            "value": 910.877904243838,
+            "min": 832.4631484942824,
+            "max": 1279.4547024368321,
+            "count": 256
+        },
+        "POCACarnivore.Self-play.ELO.sum": {
+            "value": 910.877904243838,
+            "min": 832.4631484942824,
+            "max": 31986.3675609208,
+            "count": 256
+        },
+        "POCACarnivore.Step.mean": {
+            "value": 9089698.0,
+            "min": 9859.0,
+            "max": 9089698.0,
+            "count": 909
+        },
+        "POCACarnivore.Step.sum": {
+            "value": 9089698.0,
+            "min": 9859.0,
+            "max": 9089698.0,
+            "count": 909
+        },
+        "POCACarnivore.Policy.ExtrinsicBaselineEstimate.mean": {
+            "value": 1.7707335948944092,
+            "min": -0.17385068535804749,
+            "max": 1.8914737701416016,
+            "count": 909
+        },
+        "POCACarnivore.Policy.ExtrinsicBaselineEstimate.sum": {
+            "value": 17.70733642578125,
+            "min": -3.8247151374816895,
+            "max": 20.322711944580078,
+            "count": 909
+        },
+        "POCACarnivore.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 1.7707335948944092,
+            "min": -0.17385068535804749,
+            "max": 1.8914737701416016,
+            "count": 909
+        },
+        "POCACarnivore.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 17.70733642578125,
+            "min": -3.8247151374816895,
+            "max": 20.322711944580078,
+            "count": 909
+        },
+        "POCACarnivore.Environment.CumulativeReward.mean": {
+            "value": 299.8914794921875,
+            "min": -7.110952079296112,
+            "max": 299.8914794921875,
+            "count": 255
+        },
+        "POCACarnivore.Environment.CumulativeReward.sum": {
+            "value": 299.8914794921875,
+            "min": -163.55189782381058,
+            "max": 423.81288051605225,
+            "count": 255
+        },
+        "POCACarnivore.Policy.ExtrinsicReward.mean": {
+            "value": 299.8914794921875,
+            "min": -7.110952079296112,
+            "max": 299.8914794921875,
+            "count": 255
+        },
+        "POCACarnivore.Policy.ExtrinsicReward.sum": {
+            "value": 299.8914794921875,
+            "min": -163.55189782381058,
+            "max": 423.81288051605225,
+            "count": 255
+        },
+        "POCACarnivore.Environment.GroupCumulativeReward.mean": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 255
+        },
+        "POCACarnivore.Environment.GroupCumulativeReward.sum": {
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "count": 255
+        },
+        "POCACarnivore.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 909
+        },
+        "POCACarnivore.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 909
+        },
+        "POCACarnivore.Losses.PolicyLoss.mean": {
+            "value": 0.020464226702284632,
+            "min": 0.010700941438589132,
+            "max": 0.04051927525239686,
+            "count": 391
+        },
+        "POCACarnivore.Losses.PolicyLoss.sum": {
+            "value": 0.020464226702284632,
+            "min": 0.010700941438589132,
+            "max": 0.04051927525239686,
+            "count": 391
+        },
+        "POCACarnivore.Losses.ValueLoss.mean": {
+            "value": 0.04026451763330084,
+            "min": 0.013900235543648403,
+            "max": 0.06590333084265391,
+            "count": 391
+        },
+        "POCACarnivore.Losses.ValueLoss.sum": {
+            "value": 0.04026451763330084,
+            "min": 0.013900235543648403,
+            "max": 0.06590333084265391,
+            "count": 391
+        },
+        "POCACarnivore.Losses.BaselineLoss.mean": {
+            "value": 0.04036513072523204,
+            "min": 0.013900235543648403,
+            "max": 0.19817160119613011,
+            "count": 391
+        },
+        "POCACarnivore.Losses.BaselineLoss.sum": {
+            "value": 0.04036513072523204,
+            "min": 0.013900235543648403,
+            "max": 0.19817160119613011,
+            "count": 391
+        },
+        "POCACarnivore.Policy.LearningRate.mean": {
+            "value": 0.0003,
+            "min": 0.0003,
+            "max": 0.0003,
+            "count": 391
+        },
+        "POCACarnivore.Policy.LearningRate.sum": {
+            "value": 0.0003,
+            "min": 0.0003,
+            "max": 0.0003,
+            "count": 391
+        },
+        "POCACarnivore.Policy.Epsilon.mean": {
+            "value": 0.2,
+            "min": 0.2,
+            "max": 0.20000000000000007,
+            "count": 391
+        },
+        "POCACarnivore.Policy.Epsilon.sum": {
+            "value": 0.2,
+            "min": 0.2,
+            "max": 0.20000000000000007,
+            "count": 391
+        },
+        "POCACarnivore.Policy.Beta.mean": {
+            "value": 0.005,
+            "min": 0.005,
+            "max": 0.005000000000000001,
+            "count": 391
+        },
+        "POCACarnivore.Policy.Beta.sum": {
+            "value": 0.005,
+            "min": 0.005,
+            "max": 0.005000000000000001,
+            "count": 391
+        }
+    },
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1639391354",
+        "python_version": "3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\algi\\MOARI\\venv\\Scripts\\mlagents-learn .\\config\\poca.yaml --run-id=POCA2",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.4",
+        "end_time_seconds": "1639428373"
+    },
+    "total": 37018.906176899996,
+    "count": 1,
+    "self": 0.009382299998833332,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12966389999999994,
+            "count": 1,
+            "self": 0.12966389999999994
+        },
+        "TrainerController.start_learning": {
+            "total": 37018.7671307,
+            "count": 1,
+            "self": 23.855710001575062,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.764912299989614,
+                    "count": 91,
+                    "self": 8.764912299989614
+                },
+                "TrainerController.advance": {
+                    "total": 36985.56179019843,
+                    "count": 1318709,
+                    "self": 28.778950496613106,
+                    "children": {
+                        "env_step": {
+                            "total": 32184.535388300243,
+                            "count": 1318709,
+                            "self": 26974.30908060019,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 5194.459665301528,
+                                    "count": 1318709,
+                                    "self": 134.27096290029021,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 5060.188702401238,
+                                            "count": 2603099,
+                                            "self": 3094.154743104009,
+                                            "children": {
+                                                "TorchPolicy.sample_actions": {
+                                                    "total": 1966.0339592972284,
+                                                    "count": 2603099,
+                                                    "self": 1966.0339592972284
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "workers": {
+                                    "total": 15.766642398526589,
+                                    "count": 1318708,
+                                    "self": 0.0,
+                                    "children": {
+                                        "worker_root": {
+                                            "total": 36983.0093628029,
+                                            "count": 1318708,
+                                            "is_parallel": true,
+                                            "self": 12299.09254220168,
+                                            "children": {
+                                                "steps_from_proto": {
+                                                    "total": 0.09803240001527236,
+                                                    "count": 182,
+                                                    "is_parallel": true,
+                                                    "self": 0.017975100051224935,
+                                                    "children": {
+                                                        "_process_rank_one_or_two_observation": {
+                                                            "total": 0.08005729996404742,
+                                                            "count": 728,
+                                                            "is_parallel": true,
+                                                            "self": 0.08005729996404742
+                                                        }
+                                                    }
+                                                },
+                                                "UnityEnvironment.step": {
+                                                    "total": 24683.818788201203,
+                                                    "count": 1318708,
+                                                    "is_parallel": true,
+                                                    "self": 466.0625478003931,
+                                                    "children": {
+                                                        "UnityEnvironment._generate_step_input": {
+                                                            "total": 446.6578716989858,
+                                                            "count": 1318708,
+                                                            "is_parallel": true,
+                                                            "self": 446.6578716989858
+                                                        },
+                                                        "communicator.exchange": {
+                                                            "total": 22397.32792730032,
+                                                            "count": 1318708,
+                                                            "is_parallel": true,
+                                                            "self": 22397.32792730032
+                                                        },
+                                                        "steps_from_proto": {
+                                                            "total": 1373.7704414015016,
+                                                            "count": 2637416,
+                                                            "is_parallel": true,
+                                                            "self": 254.20759569877077,
+                                                            "children": {
+                                                                "_process_rank_one_or_two_observation": {
+                                                                    "total": 1119.5628457027308,
+                                                                    "count": 10549664,
+                                                                    "is_parallel": true,
+                                                                    "self": 1119.5628457027308
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trainer_advance": {
+                            "total": 4772.247451401573,
+                            "count": 2637416,
+                            "self": 138.98997480248727,
+                            "children": {
+                                "process_trajectory": {
+                                    "total": 1419.4696141990876,
+                                    "count": 2637416,
+                                    "self": 1318.7976226990727,
+                                    "children": {
+                                        "RLTrainer._checkpoint": {
+                                            "total": 100.67199150001491,
+                                            "count": 365,
+                                            "self": 100.67199150001491
+                                        }
+                                    }
+                                },
+                                "_update_policy": {
+                                    "total": 3213.787862399998,
+                                    "count": 814,
+                                    "self": 2286.1208035002064,
+                                    "children": {
+                                        "TorchPOCAOptimizer.update": {
+                                            "total": 927.6670588997915,
+                                            "count": 25749,
+                                            "self": 927.6670588997915
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 8.00006091594696e-07,
+                    "count": 1,
+                    "self": 8.00006091594696e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.5847174000009545,
+                    "count": 1,
+                    "self": 0.005679599998984486,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.57903780000197,
+                            "count": 2,
+                            "self": 0.57903780000197
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
